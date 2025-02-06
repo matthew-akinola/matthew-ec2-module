@@ -7,8 +7,7 @@ jobs:
   tag_module:
     name: Tag Module
     runs-on: ubuntu-latest
-    permissions: 
-      id-token: write-all
+    permissions: write-all
     steps:
       - name: Checkout
         uses: actions/checkout@v3
